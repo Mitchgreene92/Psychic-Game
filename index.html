@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--Head-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="UT Coding Bootcamp HW3">
+        <meta name="author" content="Mitch Greene">
+        
+        <title>Psychic Game</title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+<!--Body-->
+    <body>
+        <div class="container">
+            <h1>Psychic Game</h1>
+            <br/>
+            <div id="userstatistics">
+                <p>Number of Wins: <strong><span id="Wins"></span></strong></p>
+                <p>Number of Losses: <strong><span id="Losses"></span></strong></p>
+            </div>
+            
+            <p>Guess which letter I'm thinking of:</p>
+            
+            <p>Guesses left: <strong><span id="numattemptsleft"></span></strong></p>
+            <p>Your Guesses so Far:</p>
+            <p><strong><span id="guesses"></span></strong></p>
+        </div>
+        
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+
+</html>
